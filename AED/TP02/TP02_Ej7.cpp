@@ -9,15 +9,15 @@ unsigned long int fibonacci(unsigned long int num){
     return fibonacci(num-1)+fibonacci(num-2);
 }
 
-long int fiboorial_iterativo(long int num){
-    long int fibo=0;
-    while (num!=1){
-        fibo*=num;
-        num--;
-    }
-    return fibo;
+// long int fiboorial_iterativo(long int num){
+//     long int fibo=0;
+//     while (num!=1){
+//         fibo*=num;
+//         num--;
+//     }
+//     return fibo;
 
-}
+// }
 
 
 int main(void){
