@@ -28,6 +28,6 @@ int main(void){
     fibo= fibonacci(num);
     cout<< "El fibonacci de "<< num<< " es: "<< fibo <<endl;
     // fib=fibonacci_iterativo(num);
-    cout<< "El fibonacci de "<< num<< " es: "<< fibo <<endl;
+    // cout<< "El fibonacci de "<< num<< " es: "<< fibo <<endl;
     return 0;
 }
